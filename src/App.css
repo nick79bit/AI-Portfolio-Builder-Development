@@ -1,0 +1,22 @@
+/* Portfolio Builder Component-level styles */
+.workspace-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.workspace-title {
+  font-family: var(--font-heading);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* Floating widgets or helper bubbles */
+.helper-card {
+  border-radius: 12px;
+  background: rgba(225, 117, 100, 0.05);
+  border: 1px dashed var(--border-light);
+  padding: 16px;
+  margin-bottom: 20px;
+}
